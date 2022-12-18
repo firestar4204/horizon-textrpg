@@ -6,14 +6,15 @@
 # include <ncurses.h>
 #endif
 
+#include <hrpg/about.h>
+
+
 int
 main(int argc,
      char **argv)
 {
 	initscr();
-	printw("test");
-	refresh();
-	getch();
+	about();
 	endwin();
 
 	return 0;
