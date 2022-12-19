@@ -15,6 +15,8 @@ main(int argc,
 {
 	initscr();
 	about();
+	clear();
+	choose();
 	endwin();
 
 	return 0;
