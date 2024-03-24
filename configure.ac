@@ -14,7 +14,9 @@ AC_CHECK_LIB([ncurses], [initscr])
 
 # Checks for header files.
 AC_HEADER_STDC
-AC_CHECK_HEADERS([ncurses.h])
+AC_CHECK_HEADERS([ncurses.h
+		  sys/time.h
+		  time.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 

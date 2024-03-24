@@ -7,6 +7,7 @@
 #endif
 
 #include <hrpg/about.h>
+#include <hrpg/io.h>
 
 
 int
