@@ -11,7 +11,7 @@
 void
 about()
 {
-	printw("hrpg - a horizon fangame by firestar4204\n");
+	printw("hrpg - a game by firestar4204\n");
 	printw("Copyright (c) 2022 firestar4204\n\n");
 
 	printw("This program is free software: you can redistribute it and/or modify\n");
