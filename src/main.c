@@ -8,17 +8,18 @@
 
 #include <hrpg/about.h>
 #include <hrpg/io.h>
-
+#include <hrpg/player.h>
 
 int
-main(int argc,
-     char **argv)
+main(int argc, char **argv)
 {
 	initscr();
 	about();
 	clear();
+	init_player();
 	choose();
 	endwin();
 
 	return 0;
 }
+
