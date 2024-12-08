@@ -12,7 +12,7 @@ void
 about()
 {
 	printw("hrpg - a game by firestar4204\n");
-	printw("Copyright (c) 2022 firestar4204\n\n");
+	printw("Copyright (c) 2022-2024 firestar4204\n\n");
 
 	printw("This program is free software: you can redistribute it and/or modify\n");
 	printw("it under the terms of the GNU General Public License as published by\n");
